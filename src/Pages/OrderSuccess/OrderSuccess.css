@@ -1,0 +1,91 @@
+.success-page{
+    min-height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.success-card{
+    width: 550px;
+    background: white;
+    padding: 50px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+.success-icon{
+    font-size: 80px;
+    margin-bottom: 20px;
+}
+
+.success-card h1{
+    color: #22c55e;
+    margin-bottom: 20px;
+}
+
+.success-card p{
+    color: #666;
+    line-height: 1.7;
+    margin-bottom: 12px;
+}
+
+.continue-btn{
+    display: inline-block;
+    margin-top: 30px;
+    padding: 15px 30px;
+    background: #599ee4;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.continue-btn:hover{
+    background: #005bb5;
+}
+
+/* Tablet Responsiveness*/
+
+@media(max-width:768px){
+    .success-card{
+        width: 100%;
+        max-width: 500px;
+        padding: 40px 30px;
+    }
+    .success-icon{
+        font-size: 70px;
+    }
+    .success-card h1{
+        font-size: 30px;
+    }
+}
+
+/* Mobile Responsiveness*/
+
+@media(max-width:480px){
+    .success-page{
+        padding: 15px;
+    }
+    .success-card{
+        width: 100%;
+        padding: 30px 20px;
+    }
+    .success-icon{
+        font-size: 60px;
+    }
+    .success-card h1{
+        font-size: 24px;
+    }
+    .success-card p{
+        font-size: 15px;
+    }
+    .continue-btn{
+        width: 100%;
+        display: block;
+        padding: 14px;
+        font-size: 16px;
+    }
+}
