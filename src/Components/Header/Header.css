@@ -45,16 +45,22 @@
 /* Login-btn */
 
 .Login-btn{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+
     border: none;
     font-size: 25px;
     font-weight: 500;
 
     background-color: #8197c6;
-    color: whitesmoke;
+    color: white;
     padding: 12px 24px;
 
     border-radius: 1000px;
-    cursor: pointer;   
+    cursor: pointer;  
+    transition: 0.3s; 
 }
 .Login-btn:hover{
     background-color: #497ae4;

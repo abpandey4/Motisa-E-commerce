@@ -7,6 +7,7 @@ import "./Header.css";
 import{FaSearch, FaHeart, FaShoppingCart} from "react-icons/fa";
 import { SearchContext } from "../../Context/SearchContext";
 
+
 function Header(){
 
     const { wishlist } = useContext(WishlistContext);
@@ -22,8 +23,11 @@ function Header(){
                 <div className="Logo">
                     <h1>Motisa</h1>
                 </div>
-
-                <button className="Login-btn">Login</button>
+                
+                <Link to="/login" className="Login-btn">
+                    Login      
+                </Link>
+               
             </div>
 
                  {/* Bottom Row*/}
